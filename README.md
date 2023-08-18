@@ -1,6 +1,6 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Todo List Exercise:
+1. Complete the functions
+2. Extract the task HTML into its own `Task` component, passing down the required state and functions as props
 
 ## Available Scripts
 
