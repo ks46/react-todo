@@ -49,7 +49,7 @@ function App() {
 
             {
                 tasks.map((todoItem, index) => {
-                    return <Task todoItem={todoItem} index={index} handleUpdate={handleUpdate} handleDelete={handleDelete} />
+                    return <Task todoItem={todoItem} index={index} handleUpdate={handleUpdate} handleDelete={handleDelete} key={index} />
                 })
             }
         </main>
